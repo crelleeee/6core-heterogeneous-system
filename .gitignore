@@ -1,0 +1,62 @@
+# Build outputs
+build/
+*.bit
+*.dtb
+*.bin
+*.elf
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+.*.sw*
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environments
+venv/
+.venv/
+env/
+.env/
+
+# Logs
+*.log
+logs/
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+
+# Driver build files
+driver/*.o
+driver/*.ko
+driver/*.mod
+driver/*.mod.c
+driver/*.mod.o
+driver/*.order
+driver/*.symvers
+driver/*.cmd
+driver/.*.cmd
+driver/.tmp_versions/
+driver/Module.markers
+driver/modules.order
+driver/Module.symvers
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Generated files
+ps7_init.tcl
